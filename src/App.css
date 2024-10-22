@@ -14,7 +14,7 @@ body {
   /* justify-content: center; */
   align-items: center;
   max-width: 900px;
-  height: 680px;
+  height: fit-content;
   width: 600px;
 }
 
