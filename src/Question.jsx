@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import './Question.css'
+import PropTypes from 'prop-types';
 
 function Question(props) {
     const [isOpen, setIsOpen] = useState(false);
-    const {id, title, info} = props;
+    const {title, info} = props;
     return (
         <li className="list-item">
           <div className="question-container">
@@ -15,6 +16,12 @@ function Question(props) {
             {isOpen ? (<p className="question-info"> {info} </p>) : null}
         </li>
     )
+}
+
+Question.propTypes = {
+  id: PropTypes.number,
+  title: PropTypes.string,
+  info: PropTypes.string
 }
 
 export default Question
