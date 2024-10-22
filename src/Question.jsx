@@ -7,12 +7,14 @@ function Question(props) {
     return (
         <li className="list-item">
           <div className="question-container">
-            <h2 className="question-title">{title}</h2>
-            <button className="open-close-btn" onClick={() => setIsOpen(!isOpen)}> Open </button>
+            <h3 className="question-title">{title}</h3>
+            <button className="open-close-btn" onClick={() => setIsOpen(!isOpen)}>
+              {isOpen ? "-" : "+"}
+            </button>
           </div>
-          <p className="question-info">
-            {isOpen ? info : null}
-          </p>
+            {isOpen ? (<p className="question-info"> {info} </p>) : null}
+          {/* <p className="question-info">
+          </p> */}
         </li>
     )
 }

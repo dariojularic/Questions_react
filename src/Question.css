@@ -1,0 +1,25 @@
+.list-item {
+  border: 1px solid gray;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.open-close-btn {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(22, 22, 108);
+  border: none;
+  color: white;
+  border-radius: 50%;
+  align-self: center;
+}
+
+h3 {
+  margin: 12px 0;
+}
