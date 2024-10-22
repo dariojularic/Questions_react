@@ -13,8 +13,6 @@ function Question(props) {
             </button>
           </div>
             {isOpen ? (<p className="question-info"> {info} </p>) : null}
-          {/* <p className="question-info">
-          </p> */}
         </li>
     )
 }

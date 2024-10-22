@@ -15,13 +15,21 @@
 .open-close-btn {
   height: 40px;
   width: 40px;
-  background-color: rgb(22, 22, 108);
+  background-color: rgb(41, 79, 137);
   border: none;
   color: white;
   border-radius: 50%;
   align-self: center;
+  cursor: pointer;
+  font-size: 24px;
+  
 }
 
 h3 {
   margin: 12px 0;
+}
+
+.question-info {
+  color: gray;
+  line-height: 2
 }
