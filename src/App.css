@@ -1,5 +1,18 @@
-.container {
-  background-color: red;
-  height: 22px;
-  width: 22px;
+body {
+  background-color: rgb(201, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
+.container {
+  background-color: white;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+
