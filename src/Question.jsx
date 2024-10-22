@@ -1,5 +1,5 @@
-import { useState } from "react";
-import "./Question.css"
+import { useState } from 'react';
+import './Question.css'
 
 function Question(props) {
     const [isOpen, setIsOpen] = useState(false);
