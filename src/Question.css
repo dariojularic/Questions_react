@@ -6,11 +6,11 @@
   padding: 8px;
 }
 
-/* .question-container {
+.question-container {
   display: flex;
   justify-content: space-between;
   padding: 0 16px;
-} */
+}
 
 .open-close-btn {
   height: 40px;
