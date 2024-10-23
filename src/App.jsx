@@ -1,4 +1,3 @@
-// import { useEffect, useState } from 'react'
 import './App.css'
 import questions from './data'
 import Question from './Question'
